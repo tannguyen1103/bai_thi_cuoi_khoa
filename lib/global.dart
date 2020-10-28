@@ -8,12 +8,12 @@ Color blueColor = Color(0xff4e5af6);
 List<Map<String, dynamic>> covidStateList = [
   {
     'state' : 'newConfirmed',
-    'name' : 'Mới mắc',
+    'name' : 'Mới nhiễm',
     'color' : Color(0xff3d4bf7),
   },
   {
     'state' : 'totalConfirmed',
-    'name' : 'Tổng mắc',
+    'name' : 'Tổng nhiễm',
     'color' : Color(0xfff7b63a),
   },
   {

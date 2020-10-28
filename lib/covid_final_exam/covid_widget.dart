@@ -409,7 +409,7 @@ class _CovidWidgetState extends State<CovidWidget> {
         ),
       ),
       title: Text(info.country.toString()),
-      subtitle: Text('Mắc: ' +
+      subtitle: Text('Nhiễm: ' +
           info.totalConfirmed.toString() +
           " - Chết: " +
           info.totalDeaths.toString() +
